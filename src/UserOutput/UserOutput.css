@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Lovers+Quarrel&display=swap');
+
+blockquote {
+    font-style: italic;
+    color: darkslategrey;
+    margin-left: 5%;
+    text-align: left;
+}
+
+blockquote::first-letter {
+    font-family: 'Lovers Quarrel', cursive;
+    color: black;
+    float: left;
+    font-size: 60px;
+    line-height: 35px;
+    padding-top: 4px;
+    padding-right: 16px;
+    padding-left: 3px;
+}
+
+cite {
+    display: block;
+    text-align: right;
+    color: black;
+}
+
+cite::before {
+    content: '--';
+}
+cite::after {
+    content: '--';
+}
